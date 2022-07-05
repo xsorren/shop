@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Nav from "../components/Nav";
-import Anuncio from "../components/Anuncio";
 import Productos from "../components/Productos";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";

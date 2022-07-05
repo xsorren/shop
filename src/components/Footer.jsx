@@ -89,9 +89,8 @@ import {
         <Left>
           <Logo>Urban.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+            Somos una empresa bla blaballbala b alba blbab blabalba  ladiah nidnai aoklwmerkamj f dafknasf
+            asfdjnlkasd lsdkasdjmalsd lasdksd jksal skd kslks kls sdaasdd msmk ksammsma lorem.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -109,18 +108,16 @@ import {
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
+          <Title>Secciones</Title>
           <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Cart</ListItem>
-            <ListItem>Man Fashion</ListItem>
-            <ListItem>Woman Fashion</ListItem>
-            <ListItem>Accessories</ListItem>
-            <ListItem>My Account</ListItem>
-            <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
+            <ListItem>Inicio</ListItem>
+            <ListItem>Carrito</ListItem>
+            <ListItem>Ropa de Hombre</ListItem>
+            <ListItem>Ropa de Mujer</ListItem>
+            <ListItem>Accesorios</ListItem>
+            <ListItem>Mi cuenta</ListItem>
+            <ListItem>Lista de Deseos</ListItem>
+            <ListItem>Terminos</ListItem>
           </List>
         </Center>
         <Right>
