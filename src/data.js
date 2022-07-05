@@ -3,22 +3,22 @@ export const sliderItems = [
       id: 1,
       img: "https://i.ibb.co/mBdsq56/pngegg.png",
       title: "SUMMER SALE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "f5fafd",
+      desc: "DESCUENTOS DE TEMPORADA! HASTA 30% OFF.",
+      bg: "fbf0f4",
     },
     {
       id: 2,
       img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+      title: "MES LAMA",
+      desc: "APROVECHA ESTE MES EL 3x2 EN VESTIDOS LAMA.",
       bg: "fcf1ed",
     },
     {
       id: 3,
       img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "LOUNGEWEAR LOVE",
-      desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+      title: "CUOTAS LIVIANAS",
+      desc: "PAGA EN HASTA 12 CUOTAS SIN INTERES!",
+      bg: "f5fafd",
     },
   ];
 
@@ -43,34 +43,34 @@ export const sliderItems = [
   export const popularProducts = [
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://cartersarg.vtexassets.com/arquivos/ids/208485/1553.jpg?v=637715007609930000",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://cdn.shopify.com/s/files/1/0272/3941/5891/products/699850T32331070-D.jpg?v=1655776228",
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://hips.hearstapps.com/bpc.h-cdn.co/assets/17/31/hm-handbag.jpg?crop=1xw:1.0xh;center,top&resize=480:*",
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://cdn.shopify.com/s/files/1/0561/4128/3401/products/BalenciagaPrintedRibbedKnitDressBlack_1080x.png?v=1645127937",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://ae01.alicdn.com/kf/Hafd92a43c16948b6b388dc555c907783Q.jpg",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://i.pinimg.com/originals/5f/35/61/5f3561a072f15e93b2ef17146425fdf8.jpg",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"http://cdn.shopify.com/s/files/1/0546/4263/9045/products/Untitleddesign.png?v=1654056283",
     },
     {
       id:8,
-      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://cdn.shopify.com/s/files/1/0561/4128/3401/products/BalenciagaPrintedRibbedKnitDressPink_1080x.png?v=1645127944",
     },
   ]
