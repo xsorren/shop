@@ -117,7 +117,6 @@ const Producto = () => {
   return (
     <Container>
       <Nav />
-      <Anuncio />
       <Wrapper>
         <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />

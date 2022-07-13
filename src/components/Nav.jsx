@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import { mobile } from "../responsive";
+import { useNavigate } from 'react-router-dom';
+
 
 const Container = styled.div`
   height: 60px;
@@ -51,6 +53,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
+  cursor: pointer;
   ${mobile({ fontSize: "24px" })}
 `;
 const Right = styled.div`
@@ -69,6 +72,7 @@ const MenuItem = styled.div`
 `;
 
 const Nav = () => {
+  let navigate = useNavigate();
     return ( 
 <Container>
     <Wrapper>
@@ -80,12 +84,12 @@ const Nav = () => {
             </SearchContainer>
         </Left>
         <Center>
-            <Logo>Urban.</Logo>
+            <Logo onClick={() => navigate("/")}>Urban.</Logo>
         </Center>
         <Right>
-        <MenuItem>REGISTRARSE</MenuItem>
-          <MenuItem>INICIAR SESION</MenuItem>
-          <MenuItem>
+        <MenuItem onClick={() => navigate("/Register")}>REGISTRARSE</MenuItem>
+          <MenuItem onClick={() => navigate("/Login")}>INICIAR SESION</MenuItem>
+          <MenuItem onClick={() => navigate("/Carrito")}>
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined />
             </Badge>

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { useNavigate } from 'react-router-dom';
+
 
 const Container = styled.div`
   flex: 1;
@@ -42,12 +44,13 @@ const Button = styled.button`
 `;
 
 const CategoriasItem = ({ item }) => {
+  let navigate = useNavigate();
   return (
     <Container>
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>
-        <Button>VER MÁS</Button>
+        <Button onClick={() => navigate("/ProductosLista")}>VER MÁS</Button>
       </Info>
     </Container>
   );

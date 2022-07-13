@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { sliderItems } from "../data";
 import { mobile } from "../responsive";
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons';
+import { useNavigate } from 'react-router-dom';
+
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -87,6 +89,7 @@ const Slider = () => {
       setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
     }
   };
+  let navigate = useNavigate();
 
   return (
     <Container>
@@ -102,7 +105,7 @@ const Slider = () => {
             <InfoContainer>
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
-              <Button>VER MÁS</Button>
+              <Button onClick={() => navigate("/ProductosLista")}>VER MÁS</Button>
             </InfoContainer>
           </Slide>
         ))}
