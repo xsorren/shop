@@ -1,20 +1,13 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/mBdsq56/pngegg.png",
-      title: "SUMMER SALE",
-      desc: "DESCUENTOS DE TEMPORADA! HASTA 30% OFF.",
-      bg: "fbf0f4",
-    },
-    {
-      id: 2,
       img: "https://i.ibb.co/DG69bQ4/2.png",
       title: "MES LAMA",
       desc: "APROVECHA ESTE MES EL 3x2 EN VESTIDOS LAMA.",
       bg: "fcf1ed",
     },
     {
-      id: 3,
+      id: 2,
       img: "https://i.ibb.co/cXFnLLV/3.png",
       title: "CUOTAS LIVIANAS",
       desc: "PAGA EN HASTA 12 CUOTAS SIN INTERES!",
