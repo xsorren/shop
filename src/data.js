@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"http://cdn.shopify.com/s/files/1/0546/4263/9045/products/Untitleddesign.png?v=1654056283",
+      img:"https://cdn.shopify.com/s/files/1/0458/4836/3030/files/SS_Buckethat_PDPImgs_IMG1.png?v=1712758982",
     },
     {
       id:8,
