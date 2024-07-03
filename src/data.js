@@ -12,7 +12,7 @@ export const sliderItems = [
       title: "CUOTAS LIVIANAS",
       desc: "PAGA EN HASTA 12 CUOTAS SIN INTERES!",
       bg: "f5fafd",
-    },
+    }
   ];
 
   export const categories = [
